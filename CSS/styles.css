@@ -94,10 +94,10 @@ body {
 }
 
 .card__img {
-    margin-top: 10%;
+    /* margin-top: 10%; */
     margin-left: 0px;
     padding: 0;
-    width: 65%;
+    width: auto;
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;

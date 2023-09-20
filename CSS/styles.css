@@ -65,7 +65,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: inherit;
+    height: auto;
     padding: 0;
 }
 
@@ -207,7 +207,10 @@ body {
 }
 
 .card__img {
-    width: 95%;
+    display: inline;
+    margin-top: 80px;
+    padding: auto;
+    width: 65%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
@@ -246,7 +249,7 @@ body {
 }
 
 .card__button {
-    display: block;
+    display: inline;
     background: linear-gradient(180deg, rgb(73, 73, 228) 0%, rgb(73, 73, 228) 100%);
     border-radius: 6px;
     text-decoration: none;
@@ -484,97 +487,12 @@ body {
     cursor: pointer;
 }
 
-
-.footer {
-    background: #fafafa;
-}
-
-.footer__caption {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    justify-content: space-evenly;
-}
-
-
+/* Tamaño letra footer */
 .title__footer {
     font-size: 24px;
     margin-bottom: 32px;
 }
 
-.download {
-    width: 50%;
-}
-
-.download__app {
-    display: flex;
-}
-
-.download__item {
-    display: flex;
-    padding: 18px 12px;
-    border-radius: 6px;
-    border: 1px solid var(--black2);
-    width: 42%;
-    align-items: center;
-    margin-right: 20px;
-    margin-bottom: 16px;
-}
-
-.download__logo {
-    font-size: 40px;
-    margin-right: 20px;
-}
-
-.download__title {
-    font-size: 18px;
-}
-
-.footer__copy {
-    width: 100%;
-    color: var(--black2);
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.copyright {
-    width: 100%;
-}
-
-.politica__privacidad {
-    color: inherit;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.politica__privacidad:hover {
-    text-decoration: underline;
-}
-
-.politica__privacidad--margin {
-    margin-right: 10px;
-}
-
-.get-email {
-    width: 50%;
-}
-
-.socialmedia {
-    margin-top: 24px;
-    display: flex;
-    color: var(--black2);
-}
-
-.socialmedia__icon {
-    font-size: 18px;
-    margin-right: 30px;
-    display: inline-block;
-}
-
-.socialmedia__legend {
-    color: var(--black2);
-    margin-right: 16px;
-}
 
 /* Estilos para el formulario */
 .contact-form {
@@ -585,36 +503,8 @@ body {
     text-align: left;
 }
 
-.input-field {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    border: 1px solid var(--black1);
-    border-radius: 6px;
-    background-color: transparent;
-    color: #fff;
-}
 
-.input-field::placeholder {
-    color: var(--gray2);
-}
-
-.cta-button {
-    display: inline-block;
-    background: linear-gradient(180deg, rgb(73, 73, 228) 0%, rgb(73, 73, 228) 100%);
-    border-radius: 6px;
-    text-decoration: none;
-    color: var(--black1);
-    font-weight: 700;
-    text-align: center;
-    padding: 12px 24px;
-    transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-    background-color: var(--gold1);
-}
-
+/* Posicicion horizontal */
 .contact {
     display: flex;
     width: 100%;
@@ -622,6 +512,7 @@ body {
     color: #fff;
 }
 
+/* Edicion footer  */
 .item__contact {
     width: 25%;
     padding: 60px 0;
@@ -631,11 +522,7 @@ body {
 }
 
 
-.item__contact--gold {
-    background: linear-gradient(180deg, rgb(73, 73, 228) 0%, rgb(73, 73, 228) 100%);
-    color: var(--black1);
-}
-
+/* iconos de la izquierda footer */
 .contact__icon {
     font-size: 14px;
     color: var(--gold1);
@@ -643,88 +530,12 @@ body {
     margin-right: 4px;
 }
 
+/* colores iconos de la derecja footer */
 .contact__icon--modifier {
     color: var(--black1);
 }
-
+/* tamaño letra mensaje footer  */
 .contact__title {
     font-size: 16px;
     line-height: 20px;
-}
-
-@media screen and (max-width:900px) {
-    .mockup {
-        width: 600px;
-        height: auto;
-    }
-
-    .title {
-        font-size: 50px;
-    }
-
-    .copy {
-        font-size: 22px;
-    }
-
-    .cta {
-        padding: 15px 22px;
-    }
-
-    .container-cards {
-        justify-content: space-evenly;
-    }
-
-    .services .card {
-        width: 45%;
-    }
-
-    .background {
-        width: 52%;
-    }
-
-    .card {
-        width: 42%;
-    }
-
-    .testimony-container {
-        justify-content: space-evenly;
-    }
-
-    .testimony__card {
-        width: 45%;
-    }
-
-    .check__item {
-        width: 45%;
-        margin-bottom: 35px;
-    }
-
-    .newsletter {
-        width: 80%;
-    }
-
-    .download {
-        width: 100%;
-    }
-
-    .download__app {
-        justify-content: space-between;
-    }
-
-    .download__item {
-        width: 45%;
-    }
-
-    .get-email {
-        width: 100%;
-        margin-bottom: 40px;
-    }
-
-    .socialmedia__icon {
-        font-size: 18px;
-    }
-
-    .socialmedia__legend {
-        font-size: 18px;
-    }
 }

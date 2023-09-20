@@ -2,69 +2,69 @@
 const preguntas = [
     { id: 0,
       categoria: "lapices", 
-      imagen: '/papeleria_Productos/img1.png',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      imagen: "/assets/productos/img1.png",
+      nombre: "Lápiz", 
+      precio: "1000" 
     },
     { id: 1,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "lapices", 
+      imagen: "/assets/productos/img2.png",
+      nombre: "Resaltador", 
+      precio: "3000" 
     },
     { id: 2,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "lapices", 
+      imagen: "/assets/productos/img3.png",
+      nombre: "Crayolas", 
+      precio: "6000" 
     },
     { id: 3,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "cuadernos", 
+      imagen: "/assets/productos/img4.png",
+      nombre: "Cuaderno Morado", 
+      precio: "10000" 
     },
     { id: 4,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "libros", 
+      imagen: "/assets/productos/img5.png",
+      nombre: "Enciclopedias", 
+      precio: "80000" 
     },
     { id: 5,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img6.png",
+      nombre: "Borrador", 
+      precio: "1000" 
     },
     { id: 6,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img7.png",
+      nombre: "Grapadora", 
+      precio: "15000" 
     },
     { id: 7,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img8.png",
+      nombre: "Pegamento", 
+      precio: "12000" 
     },
     { id: 8,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img9.png",
+      nombre: "Tajalapiz", 
+      precio: "500" 
     },
     { id: 9,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img10.png",
+      nombre: "Cinta", 
+      precio: "5000" 
     },
     { id: 10,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: "/assets/productos/img11.png",
+      nombre: "Portapapeles", 
+      precio: "30000" 
     },
     { id: 11,
       categoria: "/papeleria_Productos/img1.png", 

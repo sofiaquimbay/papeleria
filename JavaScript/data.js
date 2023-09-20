@@ -137,6 +137,6 @@ const preguntas = [
       imagen: 'assets/productos/img22.png',
       nombre: "REGLA", 
       precio: "4000" 
-    },
+    }
   
 ]

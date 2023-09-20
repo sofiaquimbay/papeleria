@@ -1,5 +1,5 @@
 
-const preguntas = [
+const productos = [
     { id: 0,
       categoria: "lapices", 
       imagen: "/assets/productos/img1.png",
@@ -133,4 +133,6 @@ const preguntas = [
       precio: "4000" 
     }
   
-]
+];
+
+export {productos};

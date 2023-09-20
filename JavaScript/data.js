@@ -67,75 +67,69 @@ const preguntas = [
       precio: "30000" 
     },
     { id: 11,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
-    },
-    { id: 12,
       categoria: "lapices", 
       imagen: "assets/productos/img12.png",
-      nombre: "ESFERO", 
+      nombre: "Esfero", 
       precio: "2500" 
+    },
+    { id: 12,
+      categoria: "utiles", 
+      imagen: 'assets/productos/img13.png',
+      nombre: "Tijeras", 
+      precio: "3000" 
     },
     { id: 13,
       categoria: "utiles", 
-      imagen: 'assets/productos/img13.png',
-      nombre: "TIJERAS", 
-      precio: "3000" 
+      imagen: 'assets/productos/img14.png',
+      nombre: "Pinturas", 
+      precio: "10000" 
     },
     { id: 14,
       categoria: "utiles", 
-      imagen: 'assets/productos/img14.png',
-      nombre: "PINTURAS", 
-      precio: "10000" 
+      imagen: 'assets/productos/img15.png',
+      nombre: "Acuarelas", 
+      precio: "15000" 
     },
     { id: 15,
       categoria: "utiles", 
-      imagen: 'assets/productos/img15.png',
-      nombre: "ACUARELAS", 
-      precio: "15000" 
-    },
-    { id: 16,
-      categoria: "utiles", 
       imagen: 'assets/productos/img16.png',
-      nombre: "COMBO ESCOLAR", 
+      nombre: "Combo Escolar", 
       precio: "40000" 
     },
-    { id: 17,
+    { id: 16,
       categoria: "libros", 
       imagen: 'assets/productos/img17.png',
-      nombre: "ENCICLOPEDIAS", 
+      nombre: "Enciclopedias", 
       precio: "100000" 
+    },
+    { id: 17,
+      categoria: "utiles", 
+      imagen: 'assets/productos/img18.png',
+      nombre: "Compás", 
+      precio: "20000" 
     },
     { id: 18,
       categoria: "utiles", 
-      imagen: 'assets/productos/img18.png',
-      nombre: "COMPÁS", 
-      precio: "20000" 
-    },
-    { id: 19,
-      categoria: "utiles", 
       imagen: 'assets/productos/img19.png',
-      nombre: "POSITS", 
+      nombre: "Posits", 
       precio: "2000" 
     },
-    { id: 20,
+    { id: 19,
       categoria: "cuadernos", 
       imagen: 'assets/productos/img20.png',
-      nombre: "LIBRETA ARGOLLADA", 
+      nombre: "Libreta Argollada", 
       precio: "15000" 
+    },
+    { id: 20,
+      categoria: "utiles", 
+      imagen: 'assets/productos/img21.png',
+      nombre: "Maleta", 
+      precio: "100000" 
     },
     { id: 21,
       categoria: "utiles", 
-      imagen: 'assets/productos/img21.png',
-      nombre: "MALETA", 
-      precio: "100000" 
-    },
-    { id: 22,
-      categoria: "utiles", 
       imagen: 'assets/productos/img22.png',
-      nombre: "REGLA", 
+      nombre: "Regla", 
       precio: "4000" 
     }
   

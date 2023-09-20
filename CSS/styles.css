@@ -52,7 +52,7 @@ body {
     linear-gradient(180deg) se encarga de crear un degradado lineal horizontal de izquierda a derecha
     
     */
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, var(--gray2) 0%, var(--black1) 100%);
 }
 
 .nav__hero {

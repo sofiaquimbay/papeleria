@@ -131,24 +131,25 @@ body {
 /* Edicion footer  */
 .item__contact {
     width: 25%;
-    padding: 60px 0;
+    padding: 20px 0;
     text-align: center;
-    background: linear-gradient(180deg, var(--black2) 0%, var(--black1) 100%);
+    background: linear-gradient(180deg, var(--gold1) 10px, var(--gray2) 100%);
 
 }
 
 
 /* iconos de la izquierda footer */
 .contact__icon {
-    font-size: 14px;
-    color: var(--gold1);
+    font-size: 24px;
+    color: white;
     line-height: 20px;
     margin-right: 4px;
 }
 
 /* colores iconos de la derecja footer */
 .contact__icon--modifier {
-    color: var(--black1);
+    color: white;
+    font-size: 24px;
 }
 /* tamaño letra mensaje footer  */
 .contact__title {

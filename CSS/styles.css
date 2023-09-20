@@ -1,5 +1,6 @@
+/* Importamos las fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
-@import "transition-style";
+
 
 /*Define una serie de variables de CSS personalizadas*/
 :root {
@@ -16,83 +17,40 @@
     --color_shadow: #00000033;
 }
 
-/*Selector Universal*/
+/*Condiciones inicciales del css*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-
 body {
+    width: 100vw;
+    overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    width: 90%;
-    /* max-width: 900px; */
-    /*Esta propiedad se encarga de ocultar los elementos*/
-    /* overflow: hidden; */
-    padding: 100px 0;
-    height: auto;
-}
-
-.container--modifier {
-    width: 60%;
-}
+/* ----------------------HEADER---------------------- */
 
 .hero {
     width: 100%;
     /*Altura minima del dispositivo*/
     min-height: 100vh;
     /*Establecer un fondo con un degradado lineal
-    
     linear-gradient(180deg) se encarga de crear un degradado lineal horizontal de izquierda a derecha
-    
     */
     background: linear-gradient(180deg, var(--gray2) 0%, var(--black1) 100%);
 }
-
-.nav__hero {
-    color: #fff;
-    height: 70px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .nav__container {
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     height: auto;
-    padding: 0;
+    list-style: none;
 }
-/* Propiedades del icono de carrito */
-.bx {
-    width: 50px;
-    height: 0px;
-    color: white;
-    font-size: 150px;
-
-}
-
-/* Link servicios  */
-.link {
-    display: inline-block;
-    color: inherit;
-    text-decoration: none;
-    font-weight: 300;
-    padding: 10px;
-}
-
-.hero__main {
-    height: calc(100vh - 70px);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-}
-
 .card__img {
     /* margin-top: 10%; */
     margin-left: 0px;
@@ -101,15 +59,161 @@ body {
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
-
+}
+.nav__container li{
+    border-bottom: solid var(--gray2);
+}
+.nav__container li:hover{
+    border-bottom: solid var(--gold2);
+}
+/* Link servicios  */
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    color: var(--gold2);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
 }
 
+/* Propiedades del icono de carrito */
+.nav__container i{
+    font-size: 30px;
+    color: white;
+}
+
+
+/* --------------- MAIN-------------- */
+
+/* Sección de título */
+.container-cajaColores{
+    width: 100%;
+    text-align: center;
+}
+
+/* Sección productos */
+.container-productos{
+    width: 85%;
+    margin: 50px auto;
+    padding: 20px 0 50px 0;
+    background-color: #ffffff99;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    /* display: none; */
+}
+.container-productos h2{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 50px 0;
+    color: var(--gold2);
+}
+.cardProductos{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.container-producto{
+    width: 100%;
+    min-height: 380px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--gray2);
+    border-radius: 20px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.card-image img{
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+}
+
+.card-infoProducto{
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.card-infoProducto span{
+    font-size: 15px; 
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: var(--gold1);
+    font-weight: bold;
+}
+.card-infoProducto h3{
+    font-size: 20px; 
+    box-sizing: border-box;
+    color: var(--gray);
+    font-weight: bold;
+}
+
+.card-infoProducto h4{
+    font-size: 19px; 
+    box-sizing: border-box;
+    color: var(--gray);
+    font-weight: 500;
+}
+
+.container-btnAdd{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.btn-agregar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: var(--gray);
+    color: var(--black1);
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);;
+    box-sizing: border-box;
+    padding: 0 10px;
+    cursor: pointer;
+}
+.btn-agregar:hover{
+    transform: scale(1.05);
+}
+.btn-agregar i{
+    font-size: 25px;
+}
+
+
+/* --------------- FOOTER-------------- */
 
 /* Tamaño letra footer */
 .title__footer {
     font-size: 24px;
-    margin-bottom: 32px;
+    margin: 20px 0 40px 0;
     color: var(--gold2);
+    text-align: center;
 }
 
 .title--active {
@@ -124,7 +228,6 @@ body {
     box-shadow: 0 0 6px var(--color_shadow);
     text-align: left;
 }
-
 
 /* Posicicion horizontal */
 .contact {
@@ -161,4 +264,9 @@ body {
 .contact__title {
     font-size: 16px;
     line-height: 20px;
+}
+
+/* Sección de copyright */
+.container-copy{
+    text-align: center;
 }

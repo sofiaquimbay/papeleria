@@ -4,42 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Papeleria</title>
+
+    <!-- Links de los estilos de la página -->
     <link rel="stylesheet" href="CSS/styles.css"/>
+    <!-- Link de los íconos de boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link del script -->
+    <script async type="module" src="JavaScript/script.js"></script>
   </head>
+
   <body>
-    <header>
+
+    <!-- Inicio del header de la página -->
         <header class="hero">
             <!--Navegación del encabezado-->
-            <nav>
-            <div class="container nav__container">
-                    <img src="assets/logo/1.png" class="card__img">
+        <nav>
+            <ul class="nav__container">
+                    <img src="assets/logo/2.png" class="card__img">
                     <h2 class="logo__name"></h2>
-                    <a href="#inicio" class="link">Productos destacados</a>
-                    <a href="#servicios" class="link">Papeles mixtos</a>
-                    <a href="#proyectos" class="link">Cuadernos</a>
-                    <a href="#contacto" class="link">Marcadores y colores</a>
-                    <i class='bx bx-cart'></i>
-                    <box-icon name='cart'></box-icon>
-            </div>
+                    <li><a href="#inicio" class="link">inicio</a></li>
+                    <li><a href="#servicios" class="link">servicios</a></li>
+                    <li><a href="#contacto" class="link">contacto</a></li>                    
+                    <i class='bx bx-cart'></i> 
+            </ul>
         </nav>
-        <!--Sección principal del encabezado-->
-        <main class="container hero__main">
-            <!--Textos y contenido destacado-->
-            <div class="hero__textos">
-                <h1 class="title"><span class="title--active"></span></h1>
-                <p class="copy"><span class="copy__active"></span></p>
-                <div class="links">
-                    
-                </div>
-            </div>
-            <section>
-                <!-- 
-                    Seccion para back-end
-                 -->
+    <!-- Fin del header de la página -->
+
+    <!-- Inicio contenido de la página -->
+        <main>
+            <!-- Sección productos -->
+            <section class="container-cajaColores">
+                <h1>Bienvenidos a caja de colores</h1>
+                <p>tenga información sobre nosotros</p>
+            </section>
+            <section class="container-productos d-none" id="products">
+                <h2>Nuestros productos</h2>
             </section>
             
         </main>
+    <!-- Fin contenido de la página -->
+
+    <!-- Inicio del pie de página -->
         <footer class="footer">
             <div class="container footer__caption">
                 <section class="get-email">
@@ -64,8 +69,11 @@
                     <h3 class="contact__title">3133662255</h3>
                 </div>
             </div>
-            <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+            <article class="container-copy">
+                Desarrollado por: Luisa, Sofi, Nata, y Erik
+            </article>
         </footer>
-    </header>
+    <!-- Fin del pie de página -->
+
   </body>
 </html>

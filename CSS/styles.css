@@ -31,10 +31,9 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
+    /* max-width: 900px; */
     /*Esta propiedad se encarga de ocultar los elementos*/
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 100px 0;
     height: auto;
 }
@@ -68,8 +67,14 @@ body {
     height: auto;
     padding: 0;
 }
+/* Propiedades del icono de carrito */
+.bx {
+    width: 50px;
+    height: 0px;
+    color: white;
+    font-size: 150px;
 
-
+}
 
 /* Link servicios  */
 .link {
@@ -89,13 +94,14 @@ body {
 }
 
 .card__img {
-    display: inline;
-    margin-top: 80px;
-    padding: auto;
+    margin-top: 10%;
+    margin-left: 0px;
+    padding: 0;
     width: 65%;
     height: 200px;
     object-fit: cover;
     border-radius: 10px 0 0 10px;
+
 }
 
 

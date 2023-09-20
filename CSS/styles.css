@@ -31,10 +31,9 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px;
-    margin: 0 auto;
+    /* max-width: 900px; */
     /*Esta propiedad se encarga de ocultar los elementos*/
-    overflow: hidden;
+    /* overflow: hidden; */
     padding: 100px 0;
     height: auto;
 }
@@ -68,11 +67,13 @@ body {
     height: auto;
     padding: 0;
 }
-
+/* Propiedades del icono de carrito */
 .bx {
-    width: 100px;
+    width: 50px;
     height: 0px;
-    
+    color: white;
+    font-size: 150px;
+
 }
 
 /* Link servicios  */

@@ -73,70 +73,70 @@ const preguntas = [
       precio: "$precio producto" 
     },
     { id: 12,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "lapices", 
+      imagen: "assets/productos/img12.png",
+      nombre: "ESFERO", 
+      precio: "2500" 
     },
     { id: 13,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img13.png',
+      nombre: "TIJERAS", 
+      precio: "3000" 
     },
     { id: 14,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img14.png',
+      nombre: "PINTURAS", 
+      precio: "10000" 
     },
     { id: 15,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img15.png',
+      nombre: "ACUARELAS", 
+      precio: "15000" 
     },
     { id: 16,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img16.png',
+      nombre: "COMBO ESCOLAR", 
+      precio: "40000" 
     },
     { id: 17,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "libros", 
+      imagen: 'assets/productos/img17.png',
+      nombre: "ENCICLOPEDIAS", 
+      precio: "100000" 
     },
     { id: 18,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img18.png',
+      nombre: "COMPÁS", 
+      precio: "20000" 
     },
     { id: 19,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img19.png',
+      nombre: "POSITS", 
+      precio: "2000" 
     },
     { id: 20,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "cuadernos", 
+      imagen: 'assets/productos/img20.png',
+      nombre: "LIBRETA ARGOLLADA", 
+      precio: "15000" 
     },
     { id: 21,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img21.png',
+      nombre: "MALETA", 
+      precio: "100000" 
     },
     { id: 22,
-      categoria: "/papeleria_Productos/img1.png", 
-      imagen: 'ruta de la carpeta',
-      nombre: "nombre producto", 
-      precio: "$precio producto" 
+      categoria: "utiles", 
+      imagen: 'assets/productos/img22.png',
+      nombre: "REGLA", 
+      precio: "4000" 
     },
   
 ]

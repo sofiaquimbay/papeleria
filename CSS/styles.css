@@ -108,8 +108,12 @@ body {
 .title__footer {
     font-size: 24px;
     margin-bottom: 32px;
+    color: var(--gold2);
 }
 
+.title--active {
+    color: var(--gold1);
+}
 
 /* Estilos para el formulario */
 .contact-form {

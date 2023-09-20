@@ -1,0 +1,142 @@
+
+const preguntas = [
+    { id: 0,
+      categoria: "lapices", 
+      imagen: '/papeleria_Productos/img1.png',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 1,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 2,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 3,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 4,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 5,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 6,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 7,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 8,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 9,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 10,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 11,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 12,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 13,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 14,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 15,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 16,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 17,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 18,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 19,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 20,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 21,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+    { id: 22,
+      categoria: "/papeleria_Productos/img1.png", 
+      imagen: 'ruta de la carpeta',
+      nombre: "nombre producto", 
+      precio: "$precio producto" 
+    },
+  
+]

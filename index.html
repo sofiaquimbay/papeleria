@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Papeleria</title>
+    <link rel="shortcut icon" href="assets/logo/2.png" type="image/x-icon">
 
     <!-- Links de los estilos de la página -->
     <link rel="stylesheet" href="CSS/styles.css"/>
     <!-- Link de los íconos de boxicons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <!-- Link del script -->
-    <script async type="module" src="JavaScript/script.js"></script>
+    
   </head>
 
   <body>
@@ -25,8 +25,20 @@
                     <li><a href="#inicio" class="link">inicio</a></li>
                     <li><a href="#servicios" class="link">servicios</a></li>
                     <li><a href="#contacto" class="link">contacto</a></li>                    
-                    <i class='bx bx-cart'></i> 
+                    <i class='bx bx-cart' id="cart"></i> 
             </ul>
+            <section class="carrito_compras active">
+                <div class="carro_comprar">
+                    <i class='bx bx-x' id="close"></i>
+                    <p class="titulo_carrito">Bienvenido a tu carrito de compras</p>
+
+                    <article class="contenedor-productosCart" id="container-cartProd">
+                    </article>
+
+                    <p class="total" id="total">TOTAL: precio</p>
+                    <button class="boton_carro" id="btn-vaciar">Vaciar carrito</button>
+                </div>  
+            </section>
         </nav>
     <!-- Fin del header de la página -->
 
@@ -75,5 +87,7 @@
         </footer>
     <!-- Fin del pie de página -->
 
+    <!-- Link del script -->
+    <script type="module" src="JavaScript/script.js"></script>
   </body>
 </html>

@@ -81,8 +81,140 @@ body {
 .nav__container i{
     font-size: 55px;
     color: white;
+    cursor: pointer;
+}
+.nav{
+    position: relative;
+}
+.carrito_compras{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    right: 0;
+    position: fixed;
+}
+.active{
+    /* visibility: hidden; */
+}
+.carro_comprar{
+    width: 35%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    background-color: var(--gray2);
+}
+.carro_comprar i{
+    font-size: 30px;
+    color: var(--gold1);
+    margin: 20px 0px 0 20px;
+    cursor: pointer;
+}
+.titulo_carrito{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: var(--gold2);
+    margin-top: 15px;
+}
+.contenedor-productosCart{
+    width: 80%;
+    height: 70%;
+    background-color:#ffffff99;
+    margin:20px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    gap: 20px;
 }
 
+.cartProductos{
+    border-bottom: solid rgb(57, 133, 164, 0.3);
+    width: 80%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.producto{
+    display: flex;
+    align-items: center;
+}
+.cart-image{
+   width: 50%;
+}
+.cart-image img{
+    width: 80%;
+}
+.cart-infoProducto{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+.cart-infoProducto span{
+    font-weight: bold;
+    color: var(--gold1);
+    text-transform: uppercase;
+}
+.cart-infoProducto h3{
+    color: var(--gray);
+}
+.cart-infoProducto h4{
+    color: var(--gray);
+}
+.accionesProducto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.accionesProducto i{
+    text-align: center;
+    color: black;
+}
+.cantidad i{
+    color: var(--gold1);
+}
+.cantidad{
+    display: flex;
+    flex-direction: column;
+}
+.cantidad span{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 20px;
+}
+.total{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.boton_carro{
+    display: block;
+    width: 80%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: var(--gold1);
+    border: solid thin var(--gold1);
+    border-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--black1);
+    font-size: 20px;
+}
 
 /* --------------- MAIN-------------- */
 

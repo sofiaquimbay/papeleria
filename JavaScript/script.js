@@ -89,7 +89,7 @@ function agregarCarrito(id){
                 <div class="accionesProducto">
                     <div class="cantidad">
                         <i class='bx bxs-up-arrow-circle'></i>
-                        <span>0</span>
+                        <span>1</span>
                         <i class='bx bxs-down-arrow-circle' ></i>
                     </div>
                     <i class='bx bxs-trash' ></i>
@@ -110,6 +110,8 @@ function agregarCarrito(id){
 
 function borrarCrrito(){
     cartProd.innerHTML = '';
+    carritoProducts = [];
 }
+
 
 // renderProducts();

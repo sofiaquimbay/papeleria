@@ -97,7 +97,8 @@ body {
     position: fixed;
 }
 .active{
-    /* visibility: hidden; */
+    visibility: hidden;
+
 }
 .carro_comprar{
     width: 35%;
@@ -178,13 +179,36 @@ body {
     align-items: center;
 }
 
-.accionesProducto i{
-    text-align: center;
-    color: black;
+.btn-sumar-carrito{
+    background-color: var(--gold1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    border: none;
 }
-.cantidad i{
-    color: var(--gold1);
+
+.btn-restar-carrito{
+    background-color: var(--gold1);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+    border: none;
 }
+
+.btn-eliminar{
+    background-color: var(--gray);
+    color: white;
+    margin-top: 15px;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
 .cantidad{
     display: flex;
     flex-direction: column;

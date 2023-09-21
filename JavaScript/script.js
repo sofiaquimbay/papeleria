@@ -98,10 +98,12 @@ function agregarCarrito(id){
 
             carritoProducts.push(product);
             alert('Agregasté satisfactoriamente el producto');
-        } 
-        // else{
-        //     alert('Ya se agregó este producto al carrito');
-        // }
+        }else{
+            if(id == idP){
+                alert('Ya se agregó este producto al carrito');
+            }
+        }
+
     });
 
 }
